@@ -2,13 +2,42 @@
 <html lang="eng">
 
 <head>
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
     <button onclick="alert('¡Hola!')">Saludar</button>
+    
+    <script src="eventos.js"></script>
+    
+    <div class="button-container">
+        <button id="greetingButton">Saludar</button>
+    </div>
+
+
+    <!--
+        Si establecemos los estilos en el html, van al final
+    -->
+    <style>
+       .button-container {
+            padding: 5px;
+            background-color: green;
+            float: inline-end;
+           
+        }
+
+        body{
+            background-color: antiquewhite; 
+        }
+    </style>
+
+
+    
+    
+
+
 </body>
 
 
